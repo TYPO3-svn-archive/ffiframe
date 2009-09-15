@@ -1,0 +1,10 @@
+6/4-2006
+
+- Frameborder parameter was set incorrectly, as default for an IFRAME is "frameborder=1", but the plugin assumed that it was "frameborder=0"
+  Thanks to Stephan Bauer for reporting this bug.
+
+- URLs are now parsed throu the typolink function, so now its possible to link to internal TYPO3 pages as well.
+
+- Added check to test if the "src" URL is really on local domain, if the autoresize option is enabled.
+
+- Added support for "longdesc" parameter.

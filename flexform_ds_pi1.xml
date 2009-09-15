@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<meta type="array">
+		<langDisable type="integer">1</langDisable>
+	</meta>
+	<ROOT>
+		<type>array</type>
+		<el>
+			<field_src>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_src</label>
+					<config>
+						<type>input</type>
+						<eval>trim</eval>
+						<size>28</size>
+						<wizards type="array">
+							<link type="array">
+								<type>popup</type>
+								<title>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_src</title>
+								<icon>link_popup.gif</icon>
+								<script>browse_links.php?act=file&amp;mode=wizard</script>
+								<JSopenParams>height=300,width=500,status=0,menubar=0,scrollbars=1</JSopenParams>
+							</link>
+						</wizards>
+					</config>
+				</TCEforms>
+			</field_src>
+			<field_getvars>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_getvars</label>
+					<config>
+						<type>input</type>
+						<size>100</size>
+					</config>
+				</TCEforms>
+			</field_getvars>
+			<field_width>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_width</label>
+					<config>
+						<type>input</type>
+						<size>5</size>
+						<default>100%</default>
+					</config>
+				</TCEforms>
+			</field_width>
+			<field_height>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_height</label>
+					<config>
+						<type>input</type>
+						<size>5</size>
+						<default>100%</default>
+					</config>
+				</TCEforms>
+			</field_height>
+			<field_autoresize>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_autoresize</label>
+					<config>
+						<type>select</type>
+						<items>
+							<numIndex index="0">
+								<numIndex index="0">LLL:EXT:ffiframe/locallang.xml:selectNo</numIndex>
+								<numIndex index="1">0</numIndex>
+							</numIndex>
+							<numIndex index="1">
+								<numIndex index="0">LLL:EXT:ffiframe/locallang.xml:selectYes</numIndex>
+								<numIndex index="1">1</numIndex>
+							</numIndex>
+						</items>
+						<size>1</size>
+						<minitems>1</minitems>
+						<maxitems>1</maxitems>
+					</config>
+				</TCEforms>
+			</field_autoresize>
+			<field_marginwidth>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_marginwidth</label>
+					<config>
+						<type>input</type>
+						<size>5</size>
+					</config>
+				</TCEforms>
+			</field_marginwidth>
+			<field_marginheight>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_marginheight</label>
+					<config>
+						<type>input</type>
+						<size>5</size>
+					</config>
+				</TCEforms>
+			</field_marginheight>
+			<field_frameborder>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_frameborder</label>
+					<config>
+						<type>select</type>
+						<items>
+							<numIndex index="0">
+								<numIndex index="0">LLL:EXT:ffiframe/locallang.xml:selectNo</numIndex>
+								<numIndex index="1">0</numIndex>
+							</numIndex>
+							<numIndex index="1">
+								<numIndex index="0">LLL:EXT:ffiframe/locallang.xml:selectYes</numIndex>
+								<numIndex index="1">1</numIndex>
+							</numIndex>
+						</items>
+						<size>1</size>
+						<minitems>1</minitems>
+						<maxitems>1</maxitems>
+					</config>
+				</TCEforms>
+			</field_frameborder>
+			<field_scrolling>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_scrolling</label>
+					<config>
+						<type>select</type>
+						<items>
+							<numIndex index="0">
+								<numIndex index="0">LLL:EXT:ffiframe/locallang.xml:selectAuto</numIndex>
+								<numIndex index="1">auto</numIndex>
+							</numIndex>
+							<numIndex index="1">
+								<numIndex index="0">LLL:EXT:ffiframe/locallang.xml:selectYes</numIndex>
+								<numIndex index="1">yes</numIndex>
+							</numIndex>
+							<numIndex index="2">
+								<numIndex index="0">LLL:EXT:ffiframe/locallang.xml:selectNo</numIndex>
+								<numIndex index="1">no</numIndex>
+							</numIndex>
+						</items>
+						<size>1</size>
+						<minitems>1</minitems>
+						<maxitems>1</maxitems>
+					</config>
+				</TCEforms>
+			</field_scrolling>
+			<field_name>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_name</label>
+					<config>
+						<type>input</type>
+						<size>20</size>
+					</config>
+				</TCEforms>
+			</field_name>
+			<field_id>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_id</label>
+					<config>
+						<type>input</type>
+						<size>20</size>
+					</config>
+				</TCEforms>
+			</field_id>
+			<field_class>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_class</label>
+					<config>
+						<type>input</type>
+						<size>20</size>
+					</config>
+				</TCEforms>
+			</field_class>
+			<field_style>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_style</label>
+					<config>
+						<type>input</type>
+						<size>30</size>
+					</config>
+				</TCEforms>
+			</field_style>
+			<field_title>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_title</label>
+					<config>
+						<type>input</type>
+						<size>30</size>
+					</config>
+				</TCEforms>
+			</field_title>
+			<field_longdesc>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_longdesc</label>
+					<config>
+						<type>input</type>
+						<eval>trim</eval>
+						<size>28</size>
+						<wizards type="array">
+							<link type="array">
+								<type>popup</type>
+								<title>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_longdesc</title>
+								<icon>link_popup.gif</icon>
+								<script>browse_links.php?act=page&amp;mode=wizard</script>
+								<JSopenParams>height=300,width=500,status=0,menubar=0,scrollbars=1</JSopenParams>
+							</link>
+						</wizards>
+					</config>
+				</TCEforms>
+			</field_longdesc>
+			<field_noiframemessage>
+				<TCEforms>
+					<label>LLL:EXT:ffiframe/locallang_db.xml:tx_ffiframe.pi_flexform.field_noiframemessage</label>
+					<config>
+						<type>input</type>
+						<size>30</size>
+						<default>LLL:EXT:ffiframe/locallang.xml:defaultnoiframemessage</default>
+					</config>
+				</TCEforms>
+			</field_noiframemessage>
+		</el>
+	</ROOT>
+</T3DataStructure>
